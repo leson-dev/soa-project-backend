@@ -1,9 +1,9 @@
-FROM python:3.12.11-slim-bullseye
+FROM python:3.12-slim-bookworm
 
 # install environment dependencies
 RUN apt-get update -yqq \
     && apt-get install -yqq --no-install-recommends \
-    netcat \
+    netcat-openbsd \
     && apt-get -q clean
 
 RUN apt-get update -y && \
