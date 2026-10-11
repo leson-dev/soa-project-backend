@@ -31,7 +31,7 @@ env:
   ECS_TASK_DEFINITION: ./backend/taskdef_dev.json
   ENVIRONMENT: develop
   # TODO: Thay thế bằng giá trị môi trường của bạn
-  SECRET_ARN: rds!db-e4922038-e656-49ac-9b46-5a8bb4820aa5
+  SECRET_ARN: rds!db-901e0727-45b2-45b3-ac75-fa7f9447aede-PL4rwK
 
 permissions:
   id-token: write
